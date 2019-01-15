@@ -12,9 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print("😎 viewDidLoad just executed!")
     }
-
+    @IBAction func showButtonPressed(_ sender: UIButton) {
+        print("👉🏽👉🏽 button was pressed")
+    }
 
 }
 
